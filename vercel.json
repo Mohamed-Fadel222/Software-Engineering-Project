@@ -15,7 +15,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "AsnanDental/wsgi.py
+      "dest": "AsnanDental/wsgi.py"
     }
   ]
 }
