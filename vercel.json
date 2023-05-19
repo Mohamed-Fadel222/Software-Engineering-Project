@@ -1,21 +1,17 @@
 {
-  "builds": [
-    {
-      "src": "AsnanDental/wsgi.py",
-      "use": "@vercel/python",
-      "config": { "maxLambdaSize": "15mb"}
-    },
-
-    
-  ],
-  "routes": [
-    {
+    "builds": [{
+        "src": "AsnanDental/wsgi.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [
+       {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
-    {
-      "src": "/(.*)",
-      "dest": "AsnanDental/wsgi.py"
-    }
-  ]
+        {
+            "src": "/(.*)",
+            "dest": "AsnanDental/wsgi.py"
+        }
+    ]
 }
