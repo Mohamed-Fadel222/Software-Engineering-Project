@@ -1,7 +1,7 @@
 # Asnan Clinic Website 
 This Spring 23 Software Engineering Course Project 
 
-| First Header  |
+| Team members  |
 | ------------- |
 | Mohamed Fadel (Team Leader)  | 
 | Basel Ahsraf  | 
